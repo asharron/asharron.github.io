@@ -4,21 +4,126 @@
         <link type='text/css' href='styles.css' rel='stylesheet'>
     </head>
     <body id='main'>
-        
-        <h1>Welcome!</h1>
-        <img src='pic.png'>
-        <p>My name is Alex and I am a Senior Computer Science major at Berea College.
-            This page is an introduction to who I am and what I like. I hope you enjoy!
-        </p>
-        <ul>
-            <LH>Favorite Hobbies</LH>
-            <li>Reading</li>
-            <li>Coding</li>
-            <li>Learning</li>
-            <li>Teaching</li>
-        </ul>
-        <button type='button' onclick='change()'>Click to see my favorite color!</button>
+    <div class="resume">
+        <div class="heading">
+            <div class="address">
+                <p>Raleigh, NC USA</p>
+                <p>U.S. Citizen</p>
+            </div>
 
-    </body>
+            <div class="name">
+                <h2>Alexandrith Sharron</h2>
+            </div>
+
+            <div class="contact-info">
+                <p>alexsharron@gmail.com</p>
+                <p>github.com/asharron</p>
+                <p>502-501-1044</p>
+            </div>
+        </div>
+
+        <div class="employment info-section">
+            <h2 class="info-section__heading">Employment</h2>
+
+            <div class="work-history">
+                <div class="work-history__heading">
+                    <span>Senior Developer / Technical Lead</span>
+                    <span>Blueacornici</span>
+                    <span>April 2019 - Present</span>
+                </div>
+                <span class="work-history__location">Blueacornici - Raleigh, NC</span>
+
+                <ul class="work-history__experience-list">
+                    <li class="work-history__experience-item">Created an internal Spring Boot and React application to manage over 500 employees' work experience and dynamically generate PDF resumes on entered information</li>
+                    <li class="work-history__experience-item">Configured and customized a design pattern library for a large bank using the Fractal framework</li>
+                    <li class="work-history__experience-item">Lead and developed a React and Redux application with Okta integration for AEM using the AEM SPA Mapper while providing support for Java servlet API implementation</li>
+                </ul>
+            </div>
+
+            <div class="work-history">
+                <div class="work-history__heading">
+                    <span>Software Associate</span>
+                    <span>Capgemini</span>
+                    <span>June 2018 - April 2019</span>
+                </div>
+                <span class="work-history__location">Synchrony Bank - Stamford, CT</span>
+
+                <ul class="work-history__experience-list">
+                    <li class="work-history__experience-item">Developed and designed a NodeJS, React Redux application to manage marketing campaign codes</li>
+                    <li class="work-history__experience-item">Train and onboard additional developers for NodeJS and React development</li>
+                    <li class="work-history__experience-item">Implemented Google Analytics & Adobe Analytics tagging on a large scale website tracking 500,000+ visitors daily</li>
+                    <li class="work-history__experience-item">Created a JS test suite inside a tagging solution to automate validation of analytics tagging in lower environments</li>
+                </ul>
+            </div>
+
+
+            <div class="work-history">
+                <div class="work-history__heading">
+                    <span>Open Source Software TA</span>
+                    <span>Berea College</span>
+                    <span>Aug 2017 - May 2018</span>
+                </div>
+                <span class="work-history__location">Berea College - Berea, KY</span>
+
+                <ul class="work-history__experience-list">
+                    <li class="work-history__experience-item">Taught 17+ students how to contribute to open source projects with Firefox Dev Tools as the course focus</li>
+                    <li class="work-history__experience-item">Led class workshops on getting started with JavaScript and React to prepare for Firefox project contribution</li>
+                    <li class="work-history__experience-item">Created assignments to introduce students to Git and its collaborative workflow</li>
+                </ul>
+            </div>
+
+            <div class="work-history">
+                <div class="work-history__heading">
+                    <span>Software Engineering Intern</span>
+                    <span>Applied Research in Acoustics</span>
+                    <span>May 2017 - Aug 2017</span>
+                </div>
+                <span class="work-history__location">Culpeper, VA</span>
+
+                <ul class="work-history__experience-list">
+                    <li class="work-history__experience-item">Reduced time taken to train & evaluate an ML model by 50%+ by implementing multiprocessing via Java</li>
+                    <li class="work-history__experience-item">Queued tasks & jobs for ML training to different computers by leveraging RabbitMQ for Java</li>
+                    <li class="work-history__experience-item">Developed in Unity & C# while following a strong OOP paradigm to produce a simulation-based project</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="education info-section">
+            <h2 class="info-section__heading">Education</h2>
+            <div class="work-history__heading">
+                <span>Berea, KY</span>
+                <span>Berea College</span>
+                <span>Aug 2014 - May 2018</span>
+            </div>
+
+            <ul class="work-history__experience-list">
+                <li class="work-history__experience-item">Recipient of full tuition scholarship</li>
+                <li class="work-history__experience-item">B.A. in Computer Science</li>
+                <li class="work-history__experience-item">Relevant Coursework: Databases; Algorithms; Programming Languages; Parallel and Distributed Computation;
+                    Open Source Software Engineering; Computational Intelligence; Operating Systems;</li>
+            </ul>
+        </div>
+
+
+        <div class="technologies info-section">
+            <h2 class="info-section__heading">Languages and Technologies</h2>
+            <ul class="technologies-list">
+                <li class="technologies-list__item"><span class="technologies-list__item-category">Languages:</span> Typescript, Java, NodeJS, Python</li>
+                <li class="technologies-list__item"><span class="technologies-list__item-category">Frontend Tools:</span> React, Redux, SCSS, Webpack, Vite</li>
+                <li class="technologies-list__item"><span class="technologies-list__item-category">Web frameworks:</span> AEM, ExpressJS, Spring boot, Flask</li>
+                <li class="technologies-list__item"><span class="technologies-list__item-category">Unit testing:</span> Mocha, Spock, Junit</li>
+                <li class="technologies-list__item"><span class="technologies-list__item-category">Version Control:</span> Git, SVN</li>
+                <li class="technologies-list__item"><span class="technologies-list__item-category">Databases:</span> MySQL, Mongo DB</li>
+                <li class="technologies-list__item"><span class="technologies-list__item-category">Operating Systems:</span> Mac, Linux (debian-based), Windows</li>
+                <li class="technologies-list__item"><span class="technologies-list__item-category">IDEs:</span> IntelliJ Ultimate, Vim, Visual Studio Code</li>
+            </ul>
+        </div>
+
+
+    </div>
+
     <script type='text/javascript' src='script.js'></script>
+    </body>
 </html>
